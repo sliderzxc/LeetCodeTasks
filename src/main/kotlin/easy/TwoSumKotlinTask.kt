@@ -19,7 +19,7 @@ You can return the answer in any order.
     Output: [0,1]
 
  */
-class TwoSum {
+class TwoSumKotlinTask {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         nums.forEachIndexed { indexFirst, i ->
             nums.forEachIndexed { indexSecond, j ->
