@@ -17,7 +17,6 @@ You can return the answer in any order.
     Example 3:
     Input: nums = [3,3], target = 6
     Output: [0,1]
-
  */
 class TwoSumKotlinTask {
     fun twoSum(nums: IntArray, target: Int): IntArray {

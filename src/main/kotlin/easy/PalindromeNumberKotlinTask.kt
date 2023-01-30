@@ -17,7 +17,6 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
     Input: x = 10
     Output: false
     Explanation: Reads 01 from right to left. Therefore, it is not a palindrome.
-
  */
 class PalindromeNumberKotlinTask {
     fun isPalindrome(x: Int): Boolean {
