@@ -21,7 +21,11 @@ class SingleNumberKotlinTask {
         val numbersHashMap = mutableMapOf<Int, Int>()
         var result = 0
         nums.forEach { number ->
-            numbersHashMap[number] = numbersHashMap[number]?.plus(number) ?: number
+            if (number == 0) {
+                numbersHashMap[number] = numbersHashMap[number]?.plus(1) ?: (1)
+            } else {
+                numbersHashMap[number] = numbersHashMap[number]?.plus(number) ?: number
+            }
         }
         numbersHashMap.forEach { (key, value) ->
             if (key == value) result = value
