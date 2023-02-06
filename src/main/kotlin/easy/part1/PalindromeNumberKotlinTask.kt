@@ -1,4 +1,4 @@
-package easy
+package easy.part1
 
 /**
 Given an integer x, return true if x is a palindrome, and false otherwise.

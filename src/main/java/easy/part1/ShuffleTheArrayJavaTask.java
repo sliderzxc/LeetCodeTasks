@@ -1,4 +1,4 @@
-package easy
+package easy.part1;
 
 /**
 Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
@@ -17,13 +17,13 @@ Return the array in the form [x1,y1,x2,y2,...,xn,yn].
     Input: nums = [1,1,2,2], n = 2
     Output: [1,2,1,2]
  */
-class ShuffleTheArrayKotlinTask {
-    fun shuffle(nums: IntArray, n: Int): IntArray {
-        val result = IntArray(n*2){0}
-        for (i in 0 until n) {
-            result[2*i] = nums[i]
-            result[2*i+1] = nums[i+n]
+public class ShuffleTheArrayJavaTask {
+    public int[] shuffle(int[] nums, int n) {
+        int[] result = new int[n*2];
+        for (int i = 0; i < n; i++) {
+            result[2*i] = nums[i];
+            result[2*i+1] = nums[i+n];
         }
-        return result
+        return result;
     }
 }

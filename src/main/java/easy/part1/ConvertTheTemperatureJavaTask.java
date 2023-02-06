@@ -1,4 +1,4 @@
-package easy;
+package easy.part1;
 
 /**
  You are given a non-negative floating point number rounded to two decimal places celsius, that denotes the temperature in Celsius.

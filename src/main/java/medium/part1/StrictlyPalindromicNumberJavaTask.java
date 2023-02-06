@@ -1,4 +1,4 @@
-package medium
+package medium.part1;
 
 /**
 An integer n is strictly palindromic if, for every base b between 2 and n - 2 (inclusive),
@@ -20,8 +20,8 @@ A string is palindromic if it reads the same forward and backward.
     Explanation: We only consider base 2: 4 = 100 (base 2), which is not palindromic.
     Therefore, we return false.
  */
-class StrictlyPalindromicNumberKotlinTask {
-    fun isStrictlyPalindromic(n: Int): Boolean {
-        return false
+public class StrictlyPalindromicNumberJavaTask {
+    public boolean isStrictlyPalindromic(int n) {
+        return false;
     }
 }

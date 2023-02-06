@@ -1,4 +1,4 @@
-package easy;
+package easy.part1
 
 /**
 Given two integers num1 and num2, return the sum of the two integers.
@@ -12,9 +12,9 @@ Given two integers num1 and num2, return the sum of the two integers.
     Input: num1 = -10, num2 = 4
     Output: -6
     Explanation: num1 + num2 = -6, so -6 is returned.
-*/
-public class AddTwoIntegersJavaTask {
-    public int sum(int num1, int num2) {
-        return num1 + num2;
+ */
+class AddTwoIntegersKotlinTask {
+    fun sum(num1: Int, num2: Int): Int {
+        return num1 + num2
     }
 }

@@ -1,4 +1,4 @@
-package easy;
+package easy.part1;
 
 import java.sql.Array;
 import java.util.Arrays;
