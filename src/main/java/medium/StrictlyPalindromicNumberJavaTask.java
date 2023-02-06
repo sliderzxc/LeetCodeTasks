@@ -1,4 +1,4 @@
-package easy;
+package medium;
 
 /**
 An integer n is strictly palindromic if, for every base b between 2 and n - 2 (inclusive),
