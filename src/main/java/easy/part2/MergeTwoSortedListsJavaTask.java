@@ -17,7 +17,7 @@ package easy.part2;
  * Output: [0]
  */
 public class MergeTwoSortedListsJavaTask {
-    class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
 
