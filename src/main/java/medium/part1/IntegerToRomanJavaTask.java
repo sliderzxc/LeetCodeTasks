@@ -1,4 +1,7 @@
-package medium.part1
+package medium.part1;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -38,17 +41,17 @@ Given an integer, convert it to a roman numeral.
     Output: "MCMXCIV"
     Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
  */
-class IntegerToRomanKotlinTask {
-    fun intToRoman(num: Int): String {
-        val symbols = listOf("M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I")
-        val values = listOf(1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1)
-        var result = ""
-        var remainder = num
-        for (i in symbols.indices) {
-            val quotient = remainder / values[i]
-            remainder %= values[i]
-            result += symbols[i].repeat(quotient)
+public class IntegerToRomanJavaTask {
+    public String intToRoman(int num) {
+        List<String> symbols = Arrays.asList("M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I");
+        List<Integer> values = Arrays.asList(1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1);
+        StringBuilder result = new StringBuilder();
+        int remainder = num;
+        for (int i = 0; i < symbols.size(); i++) {
+            int quotient = remainder / values.get(i);
+            remainder %= values.get(i);
+            result.append(symbols.get(i).repeat(quotient));
         }
-        return result
+        return result.toString();
     }
 }
