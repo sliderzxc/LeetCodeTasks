@@ -1,4 +1,4 @@
-package medium.part2
+package medium.part1
 
 /**
  * You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the
