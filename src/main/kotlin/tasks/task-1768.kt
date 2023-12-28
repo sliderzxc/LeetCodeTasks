@@ -6,7 +6,6 @@ package tasks
  * This class provides a method to merge 2 words into 1 word, merge the strings by adding
  * letters in alternating order
  */
-
 class Task1768 {
     fun mergeAlternately(word1: String, word2: String): String {
         val sb = StringBuilder()
