@@ -7,16 +7,9 @@ package tasks
  *
  * Given an integer array nums, the task is to return the number of subarrays filled with 0.
  * A subarray is defined as a contiguous non-empty sequence of elements within an array.
- *
  */
 
 class Task2348 {
-    /**
-     * Calculates the number of subarrays filled with 0 in the given integer array.
-     *
-     * @param nums The input integer array.
-     * @return The number of subarrays filled with 0.
-     */
     fun zeroFilledSubarray(nums: IntArray): Long {
         var ans: Long = 0
         var count: Long = 0
