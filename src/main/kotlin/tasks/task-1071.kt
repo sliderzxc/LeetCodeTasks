@@ -1,11 +1,7 @@
 package tasks
 
 /**
- * Problem - https://leetcode.com/problems/greatest-common-divisor-of-strings/
- *
- * This class provides a method to find the largest string x that divides both given strings str1 and str2.
- * A string x divides str1 and str2 if and only if str1 = x + ... + x and str2 = x + ... + x (i.e., x
- * is concatenated with itself one or more times).
+ * Problem - https://leetcode.com/problems/greatest-common-divisor-of-strings
  */
 class Task1071 {
     fun gcdOfStrings(str1: String, str2: String): String {

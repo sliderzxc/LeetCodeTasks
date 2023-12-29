@@ -1,10 +1,7 @@
 package tasks
 
 /**
- * Problem - https://leetcode.com/problems/sum-multiples/
- *
- * This class provides a method to calculate the sum of multiples
- * of 3, 5, and 7 up to a given number 'n'.
+ * Problem - https://leetcode.com/problems/sum-multiples
  */
 class Task2652 {
     fun sumOfMultiples(n: Int): Int {

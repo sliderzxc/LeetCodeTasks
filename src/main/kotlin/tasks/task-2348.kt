@@ -1,12 +1,7 @@
 package tasks
 
 /**
- * Problem - https://leetcode.com/problems/number-of-zero-filled-subarrays/
- *
- * This class provides a method to calculate the number of subarrays filled with 0 in an integer array.
- *
- * Given an integer array nums, the task is to return the number of subarrays filled with 0.
- * A subarray is defined as a contiguous non-empty sequence of elements within an array.
+ * Problem - https://leetcode.com/problems/number-of-zero-filled-subarrays
  */
 class Task2348 {
     fun zeroFilledSubarray(nums: IntArray): Long {
