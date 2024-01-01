@@ -1,7 +1,7 @@
 package tasks
 
 /**
- * Problem - https://leetcode.com/problems/neither-minimum-nor-maximum/submissions
+ * Problem - https://leetcode.com/problems/neither-minimum-nor-maximum
  */
 class Task2733 {
     fun findNonMinOrMax(nums: IntArray): Int {
